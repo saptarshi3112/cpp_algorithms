@@ -23,6 +23,8 @@ public:
   int getVal() {
     return this->val;
   }
+
+  friend class LinkedList;
 };
 
 
